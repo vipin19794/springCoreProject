@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<!--<servlet> <servlet-name>register</servlet-name> <servlet-class>com.bridgelabz.controller.register</servlet-class> 
+		</servlet> <servlet> <servlet-name>login</servlet-name> <servlet-class>com.bridgelabz.controller.login</servlet-class> 
+		</servlet> <servlet> <servlet-name>logout</servlet-name> <servlet-class>com.bridgelabz.controller.logout</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>register</servlet-name> <url-pattern>/stu_register</url-pattern> 
+		</servlet-mapping> <servlet-mapping> <servlet-name>login</servlet-name> <url-pattern>/stu_login</url-pattern> 
+		</servlet-mapping> <servlet-mapping> <servlet-name>logout</servlet-name> 
+		<url-pattern>/stu_logout</url-pattern> </servlet-mapping> -->
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.bridgelabz.controller.Register</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+</beans>
